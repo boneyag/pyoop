@@ -1,0 +1,8 @@
+{
+    "resolution":[
+        "push",
+        "attach",
+        "commit",
+        "patch"
+    ]
+}

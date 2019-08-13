@@ -1,0 +1,23 @@
+
+
+Created attachment 580226
+patch, v2
+
+Created attachment 578827
+patch, v1
+
+Created an attachment (id=324147) [details]
+patch
+
+http://hg.mozilla.org/index.cgi/mozilla-central/rev/d12488eef3f5
+
+
+***Not all URLs are commits or patches (example, following URL is for a bug report)
+https://bugzilla.mozilla.org/show_bug.cgi?id=502500
+
+Pushed as 17120:e712e96d7861 and 17121:adb1ef78dd21
+
+Pushed http://hg.mozilla.org/mozilla-central/rev/097598383614
+
+Committing to: bzr+ssh://lpsolit%40gmail.com@bzr.mozilla.org/bugzilla/4.0/ modified js/field.js
+Committed revision 7669.
