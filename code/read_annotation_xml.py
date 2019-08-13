@@ -11,7 +11,7 @@ class ReadAnnotationXML:
         # object initialization
         curr_dir = os.getcwd()
         data_file_path = os.path.join(curr_dir, 'data', filename)
-        print(data_file_path)
+        # print(data_file_path)
         try:
             self.annotated_file = open(data_file_path, encoding='utf8')
 
