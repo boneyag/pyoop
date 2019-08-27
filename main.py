@@ -7,6 +7,7 @@ from code import JsonToXml
 from code import FilterResolution
 from code import FilterClarificationQuotes
 from code import FilterClarificationKeywords
+from code import TextRank4Keyword
 import pprint
 
 def main():
@@ -22,7 +23,7 @@ def main():
 
     pp = pprint.PrettyPrinter(indent=4)
 
-    # pp.pprint(reports[0])
+    # pp.pprint(reports[27])
     # pp.pprint(structure[0])
 
     # annotations = ReadAnnotationXML('annotation.xml')
@@ -39,8 +40,15 @@ def main():
     # res_state = FilterResolution()
     # res_state.find_comments(reports[1], 'se_keywords.json')
 
-    clas_state = FilterClarificationQuotes()
-    clas_state.find_matches(reports)
+    clas_state_quote = FilterClarificationQuotes()
+    clas_state_quote.find_matches(reports)
+    
+    # class_state_kw = FilterClarificationKeywords()
+    # text = class_state_kw.preprocess_text(reports)
+    
+    # tr4kw = TextRank4Keyword()
+    # tr4kw.analyze(text, candidate_pos=['NOUN', 'PROPN'], window_size=4, lower=True)
+    # tr4kw.get_keywords(50)
 
 
 # invoking main
